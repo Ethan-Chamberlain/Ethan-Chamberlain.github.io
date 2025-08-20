@@ -27,7 +27,6 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: minmax(0, 1fr);
-  /* background-color: azure; */
   background-color: white;
 }
 
@@ -89,6 +88,7 @@ header {
 
 .subject-column h2 {
   text-align: center;
+  padding-top: 10px;
 }
 
 .subject-column ul {
