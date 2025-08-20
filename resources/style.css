@@ -7,7 +7,7 @@
 
 /* global content */
 a {
-  color: white;
+  color: #005bbb;
   text-decoration: none;
 }
 
@@ -27,6 +27,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: minmax(0, 1fr);
+  /* background-color: azure; */
   background-color: white;
 }
 
@@ -40,6 +41,10 @@ header {
   justify-content: space-between;
   color: white;
   padding: 0px 20px 0px 20px;
+}
+
+header a {
+  color:white;
 }
 
 #github-link {
@@ -61,7 +66,6 @@ header {
   min-height: 200px;
 }
 
-/* text block content */
 .text-block {
   display: flex;
   flex-direction: column;
@@ -72,7 +76,6 @@ header {
   max-width: 800px;
 }
 
-/* row-colums content */
 .row-columns-block {
   display: flex;
   width: 100%;
@@ -88,7 +91,6 @@ header {
 
 .subject-column h2 {
   text-align: center;
-  padding-top: 10px;
 }
 
 .subject-column ul {
@@ -102,8 +104,6 @@ header {
 }
 
 
-
-/* spacer contetn */
 .spacer {
   min-height: 100px;
 }
@@ -116,6 +116,10 @@ footer {
   align-items: center;
   min-height: 50px;
   justify-content: space-between;
+  color: white;
+}
+
+footer a {
   color: white;
 }
 
